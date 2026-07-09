@@ -282,7 +282,12 @@
 
   @media (max-width: 860px){
     .hero-grid{grid-template-columns:1fr;}
-    .hero-photo{order:-1;aspect-ratio:16/9;}
+    .hero-photo{
+      width:28%;
+      max-width:160px;
+      bottom:-10px;
+    }
+    .header-cta{display:none;}
     .why-grid{grid-template-columns:1fr;}
     .territoire-strip{grid-template-columns:repeat(2,1fr);}
     .cta-grid{grid-template-columns:1fr;}
